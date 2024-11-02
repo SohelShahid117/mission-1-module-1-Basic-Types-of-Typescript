@@ -1,6 +1,8 @@
 {
 
     //1-9 Type alias in typescript
+
+    //common 1 t type object hobe jeti bibinno dike use hobe.
     
     type std = {
         name:string;

@@ -1,18 +1,20 @@
 {
    
-   
-    //1-7 Spread and Rest Operator
+//1-7 Spread and Rest Operator
     
-    const poorUser = {
+const poorUser = {
     name:"shahid",
 }
 
 //spread operator 
 let brothers1 = ["tarek","arif","rakib","sayed"]
+
 //  const brothers1:string[] = ["tarek","arif","rakib","sayed"]
 //  const brothers2:string[] = ["alamgir","jahangir","arafat","iqbal"]
+
  let brothers2:string[] = ["alamgir","jahangir","arafat","iqbal"]
-//  brothers1.push(brothers2)
+
+//  brothers1.push(brothers2)--->this is wrong
 brothers1.push(...brothers2)
 
 const mentors1 = {
@@ -33,6 +35,7 @@ const mentorList = {
 }
 console.log(mentorList)
 
+
 //rest operator
 
 /*
@@ -48,8 +51,6 @@ const amarFriend=(...frnds:string[])=>{
 }
 amarFriend("abul","babul","bulbul")
 amarFriend("abul","babul","bulbul","makbul","kabul","jambul");
-
-
 
 
 

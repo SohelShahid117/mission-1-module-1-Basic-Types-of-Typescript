@@ -9,7 +9,7 @@
     //  const brothers1:string[] = ["tarek","arif","rakib","sayed"]
     //  const brothers2:string[] = ["alamgir","jahangir","arafat","iqbal"]
     let brothers2 = ["alamgir", "jahangir", "arafat", "iqbal"];
-    //  brothers1.push(brothers2)
+    //  brothers1.push(brothers2)--->this is wrong
     brothers1.push(...brothers2);
     const mentors1 = {
         typescript: "mezbah",
